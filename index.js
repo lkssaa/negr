@@ -100,7 +100,14 @@ function generate_en() {
       if (Math.floor(Math.random() * 2) === 1) {
         pr += w1[Math.floor(Math.random() * w1.length)];
         pr += " ";
+        if (Math.floor(Math.random() * 2) === 1) {
+        pr += p1[Math.floor(Math.random() * p1.length)];
+        pr += " ";
       }
+        pr += s1[Math.floor(Math.random() * s1.length)];
+        pr += " ";
+      }
+      
       if (Math.floor(Math.random() * 2) === 1) {
         pr += ",";
       }
