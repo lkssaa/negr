@@ -1,0 +1,158 @@
+@font-face {
+  font-family: 'Bahnschrift';
+  src: url('path-to-your-font/Bahnschrift-Regular.ttf') format('truetype');
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  a{
+    font-size: 14px;
+  }
+
+  header {
+    background-color: #333;
+    padding: 10px;
+  }
+  .container {
+    width: 100%;
+  }
+  .root-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+  }
+  .ue {
+    background-color: #914b4b;
+  }
+  
+
+  .ua {
+    background: #574f4f;
+  }
+  .root-nav li {
+    list-style-type: none;
+    
+    padding-left: 0;
+    position: relative;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  li:hover {
+    background: #F03861;
+    transition-duration: .3s;
+  }
+  
+  .root-nav a,
+  .root-nav span {
+    font-stretch: condensed;
+    font-family: 'Bahnschrift', sans-serif;
+    text-decoration: none;
+    color: #EEE;
+    display: block;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+  .root-nav ul {
+    display: none;
+    position: absolute;
+    right: 0px;
+    top: 45px;
+    width: 150px;
+  }
+
+
+  
+  ul.sub-menu-active {
+    display: block;
+  }
+  
+  span.sub-menu-active-span{
+    background: #F03861;
+  }
+
+    
+
+li {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.langs ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.langs li {
+  display: inline-block;
+  margin-right: 10px;
+}
+  .aaa {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  .aaa:hover {
+    background-color: #555;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  span {
+    height: 100%;
+  }
+  .fade-out {
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    opacity: 1;
+    pointer-events: none;
+    transition: opacity 0.5s;
+  }
+  
+  .loading-text {
+    color: white;
+    font-size: 24px;
+  }
+
+  .content {
+    font-family: 'Bahnschrift', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    background-color: rgba(180, 70, 70, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 15px auto;
+    
+
+  }
+  html {
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+
+  }
+  
+
