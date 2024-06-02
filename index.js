@@ -223,80 +223,155 @@ app.get('/about', function(req, res) {
   });
 });
 
-app.get('/1', function(req, res) {
-  res.send(missing_database(lng))
+app.get('/1en', function(req, res) {
+  res.send(missing_database(ru))
 });
-app.get('/2', function(req, res) {
-  res.send(missing_database(lng))
+app.get('/2en', function(req, res) {
+  res.send(missing_database(ru))
 });
-app.get('/3', function(req, res) {
-  res.send(missing_database(lng))
+app.get('/3en', function(req, res) {
+  res.send(missing_database(ru))
 });
-app.get('/4', function(req, res) {
-  res.send(missing_database(lng))
+app.get('/4en', function(req, res) {
+  res.send(missing_database(ru))
 });
-app.get('/5', function(req, res) {
-  res.send(missing_database(lng))
+app.get('/5en', function(req, res) {
+  res.send(missing_database(ru))
 });
-app.get('/6', function(req, res) {
-  res.send(missing_database(lng))
+app.get('/6en', function(req, res) {
+  res.send(missing_database(ru))
 });
-app.get('/7', function(req, res) {
-  res.send(missing_database(lng))
+app.get('/7en', function(req, res) {
+  res.send(missing_database(ru))
 });
-app.get('/8', function(req, res) {
-  res.send(missing_database(lng))
+app.get('/8en', function(req, res) {
+  res.send(missing_database(ru))
 });
-app.get('/9', function(req, res) {
-  res.send(missing_database(lng))
+app.get('/9en', function(req, res) {
+  res.send(missing_database(ru))
 });
-app.get('/101', function(req, res) {
-  res.send(missing_database(lng))
+app.get('/101en', function(req, res) {
+  res.send(missing_database(ru))
 });
-app.get('/102', function(req, res) {
-  res.send(missing_database(lng))
+app.get('/102en', function(req, res) {
+  res.send(missing_database(ru))
 });
-app.get('/103', function(req, res) {
-  res.send(missing_database(lng))
+app.get('/103en', function(req, res) {
+  res.send(missing_database(ru))
 });
-app.get('/104', function(req, res) {
-  res.send(missing_database(lng))
+app.get('/104en', function(req, res) {
+  res.send(missing_database(ru))
 });
-app.get('/11', function(req, res) {
-  res.send(missing_database(lng))
+app.get('/11en', function(req, res) {
+  res.send(missing_database(ru))
 });
-app.get('/12', function(req, res) {
-  res.send(missing_database(lng))
+app.get('/12en', function(req, res) {
+  res.send(missing_database(ru))
 });
-app.get('/13', function(req, res) {
-  res.send(missing_database(lng))
+app.get('/13en', function(req, res) {
+  res.send(missing_database(ru))
 });
-app.get('/141', function(req, res) {
-  res.send(missing_database(lng))
+app.get('/141en', function(req, res) {
+  res.send(missing_database(ru))
 });
-app.get('/142', function(req, res) {
-  res.send(missing_database(lng))
+app.get('/142en', function(req, res) {
+  res.send(missing_database(ru))
 });
-app.get('/143', function(req, res) {
-  res.send(missing_database(lng))
+app.get('/143en', function(req, res) {
+  res.send(missing_database(ru))
 });
-app.get('/144', function(req, res) {
-  res.send(missing_database(lng))
+app.get('/144en', function(req, res) {
+  res.send(missing_database(ru))
 });
-app.get('/145', function(req, res) {
-  res.send(missing_database(lng))
+app.get('/145en', function(req, res) {
+  res.send(missing_database(ru))
 });
-app.get('/146', function(req, res) {
-  res.send(missing_database(lng))
+app.get('/146en', function(req, res) {
+  res.send(missing_database(ru))
 });
-app.get('/147', function(req, res) {
-  res.send(missing_database(lng))
+app.get('/147en', function(req, res) {
+  res.send(missing_database(ru))
 });
-app.get('/148', function(req, res) {
-  res.send(missing_database(lng))
+app.get('/148en', function(req, res) {
+  res.send(missing_database(ru))
 });
-app.get('/149', function(req, res) {
-  res.send(missing_database(lng))
+app.get('/149en', function(req, res) {
+  res.send(missing_database(ru))
+});
+app.get('/1ru', function(req, res) {
+  res.send(missing_database(en))
+});
+app.get('/2ru', function(req, res) {
+  res.send(missing_database(en))
+});
+app.get('/3ru', function(req, res) {
+  res.send(missing_database(en))
+});
+app.get('/4ru', function(req, res) {
+  res.send(missing_database(en))
+});
+app.get('/5ru', function(req, res) {
+  res.send(missing_database(en))
+});
+app.get('/6ru', function(req, res) {
+  res.send(missing_database(en))
+});
+app.get('/7ru', function(req, res) {
+  res.send(missing_database(en))
+});
+app.get('/8ru', function(req, res) {
+  res.send(missing_database(en))
+});
+app.get('/9ru', function(req, res) {
+  res.send(missing_database(en))
+});
+app.get('/101ru', function(req, res) {
+  res.send(missing_database(en))
+});
+app.get('/102ru', function(req, res) {
+  res.send(missing_database(en))
+});
+app.get('/103ru', function(req, res) {
+  res.send(missing_database(en))
+});
+app.get('/104ru', function(req, res) {
+  res.send(missing_database(en))
+});
+app.get('/11ru', function(req, res) {
+  res.send(missing_database(en))
+});
+app.get('/12ru', function(req, res) {
+  res.send(missing_database(en))
+});
+app.get('/13ru', function(req, res) {
+  res.send(missing_database(en))
+});
+app.get('/141ru', function(req, res) {
+  res.send(missing_database(en))
+});
+app.get('/142ru', function(req, res) {
+  res.send(missing_database(en))
+});
+app.get('/143ru', function(req, res) {
+  res.send(missing_database(en))
+});
+app.get('/144ru', function(req, res) {
+  res.send(missing_database(en))
+});
+app.get('/145ru', function(req, res) {
+  res.send(missing_database(en))
+});
+app.get('/146ru', function(req, res) {
+  res.send(missing_database(en))
+});
+app.get('/147ru', function(req, res) {
+  res.send(missing_database(en))
+});
+app.get('/148ru', function(req, res) {
+  res.send(missing_database(en))
+});
+app.get('/149ru', function(req, res) {
+  res.send(missing_database(en))
 });
 
 
